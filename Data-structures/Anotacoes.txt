@@ -1,0 +1,76 @@
+Learning about:
+-Ordering the data types into lists, tuples, sets, dictionaries and compound data structures.
+-Last two opertators in python, membership and indentity
+
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+- Listas:
+
+Definição: Uma lista é uma coleção ordenada e mutável de itens. Você pode adicionar, remover ou alterar elementos.
+Sintaxe: minha_lista = [1, 2, 3, "quatro"]
+Características: Permite elementos duplicados e pode conter diferentes tipos de dados.
+
+- Tuplas:
+
+Definição: Uma tupla é uma coleção ordenada e imutável de itens. Uma vez criada, não pode ser alterada.
+Sintaxe: minha_tupla = (1, 2, 3, "quatro")
+Características: Também permite elementos duplicados e pode conter diferentes tipos de dados. 
+É frequentemente usada para armazenar dados que não devem ser alterados.
+
+- Conjuntos (Sets):
+
+Definição: Um conjunto é uma coleção não ordenada de itens únicos. Não permite duplicatas.
+Sintaxe: meu_conjunto = {1, 2, 3, "quatro"}
+Características: Útil para operações matemáticas como união, interseção e diferença.
+
+- Dicionários:
+
+Definição: Um dicionário é uma coleção não ordenada de pares chave-valor. Cada chave deve ser única.
+Sintaxe: meu_dicionario = {"nome": "Guilherme", "idade": 25}
+Características: Permite acesso rápido aos valores através das chaves.
+
+- Estruturas de Dados Compostas:
+
+Definição: Estruturas que combinam diferentes tipos de dados, como listas de dicionários ou dicionários de listas.
+Exemplo: minha_estrutura = [{"nome": "Guilherme", "idade": 25}, {"nome": "Maria", "idade": 30}]
+Características: Permitem organizar dados complexos de forma hierárquica.
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+
+Useful Functions for Lists I
+- len() quantos elementos tem na lista
+- max() Maior elemento da lista, senão o ultimo por ordem alfabética
+- min() menor elemento da lista
+- sorted() copia da lista ordenada do maior pro menor
+
+- join() separa os elementos como pedido
+
+new_str = "\-".join(["fore", "aft", "starboard", "port"])
+print(new_str)
+
+fore-aft-startboard-port
+
+- append() adiciona um elemento a mais
+
+letters = ['a', 'b', 'c', 'd']
+letters.append('z')
+print(letters)
+
+['a', 'b', 'c', 'd', 'z']
+
+---------------------------------------------------------------------------------------------------------------------------
+
+fruit = {"apple", "banana", "orange", "grapefruit"}  # define a set
+
+print("watermelon" in fruit)  # check for element
+
+fruit.add("watermelon")  # add an element
+print(fruit)
+
+print(fruit.pop())  # remove a random element
+print(fruit)
+
+---------------------------------------------------------------------------------------------------------------------------
+
